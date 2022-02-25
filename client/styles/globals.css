@@ -51,7 +51,9 @@ body {
   top: 2px;
   left: 2px;
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 input[type="search"] {
   border: none;
   outline: none;
